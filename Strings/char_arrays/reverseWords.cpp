@@ -8,6 +8,7 @@ class Solution {
             int n = s.length();
             string ans = "";
             reverse(s.begin(), s.end());
+            
             // for each word in a string
             for(int i = 0 ; i < n; i++){
                 string word = "";
